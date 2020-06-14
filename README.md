@@ -25,6 +25,7 @@ provider "aws" {
 ```
 aws configure --profile < Profile-Name>
 ```
+![job2](https://github.com/Sumit-Rasal/aws-usecase-1/blob/master/Screenshot/Screenshot%20from%202020-06-14%2008-35-11.png)
 **Step-2**
 * create the Key Pair For The EC2 instance
 ```
@@ -234,6 +235,7 @@ output "IP"{
  value=aws_instance.webserver.public_ip
 }
 ```
+![job-1](https://github.com/Sumit-Rasal/aws-usecase-1/blob/master/Screenshot/Screenshot%20from%202020-06-13%2022-42-57.png)
 
 
 
